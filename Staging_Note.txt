@@ -1,0 +1,5 @@
+Các bước commit code staging project githup
+git add . (Add file)
+git commit -m "Điền nội dung commit" (comment lại)
+git push -u origin main (commit code lên git)
+git status (kiểm tra trạng thái file)
