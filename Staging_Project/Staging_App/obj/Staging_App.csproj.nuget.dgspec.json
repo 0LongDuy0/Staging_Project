@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Linh_Tinh\\Staging\\Staging_Project\\Staging_App\\Staging_App.csproj": {}
+    "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_App\\Staging_App.csproj": {}
   },
   "projects": {
-    "D:\\Linh_Tinh\\Staging\\Staging_Project\\Staging_App\\Staging_App.csproj": {
+    "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_App\\Staging_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Linh_Tinh\\Staging\\Staging_Project\\Staging_App\\Staging_App.csproj",
+        "projectUniqueName": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_App\\Staging_App.csproj",
         "projectName": "Staging_App",
-        "projectPath": "D:\\Linh_Tinh\\Staging\\Staging_Project\\Staging_App\\Staging_App.csproj",
+        "projectPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_App\\Staging_App.csproj",
         "packagesPath": "C:\\Users\\longd\\.nuget\\packages\\",
-        "outputPath": "D:\\Linh_Tinh\\Staging\\Staging_Project\\Staging_App\\obj\\",
+        "outputPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

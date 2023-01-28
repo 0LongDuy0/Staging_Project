@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Linh_Tinh\\Staging\\Staging_Project\\Staging_Web\\Staging_Web.csproj": {}
+    "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Web\\Staging_Web.csproj": {}
   },
   "projects": {
-    "D:\\Linh_Tinh\\Staging\\Staging_Project\\Staging_Web\\Staging_Web.csproj": {
+    "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Web\\Staging_Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Linh_Tinh\\Staging\\Staging_Project\\Staging_Web\\Staging_Web.csproj",
+        "projectUniqueName": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Web\\Staging_Web.csproj",
         "projectName": "Staging_Web",
-        "projectPath": "D:\\Linh_Tinh\\Staging\\Staging_Project\\Staging_Web\\Staging_Web.csproj",
+        "projectPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Web\\Staging_Web.csproj",
         "packagesPath": "C:\\Users\\longd\\.nuget\\packages\\",
-        "outputPath": "D:\\Linh_Tinh\\Staging\\Staging_Project\\Staging_Web\\obj\\",
+        "outputPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

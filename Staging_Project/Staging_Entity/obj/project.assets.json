@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Linh_Tinh\\Staging\\Staging_Project\\Staging_Entity\\Staging_Entity.csproj",
+      "projectUniqueName": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Entity\\Staging_Entity.csproj",
       "projectName": "Staging_Entity",
-      "projectPath": "D:\\Linh_Tinh\\Staging\\Staging_Project\\Staging_Entity\\Staging_Entity.csproj",
+      "projectPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Entity\\Staging_Entity.csproj",
       "packagesPath": "C:\\Users\\longd\\.nuget\\packages\\",
-      "outputPath": "D:\\Linh_Tinh\\Staging\\Staging_Project\\Staging_Entity\\obj\\",
+      "outputPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
