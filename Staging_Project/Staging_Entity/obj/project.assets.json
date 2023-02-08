@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Staging_Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Staging_Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Staging_Utility.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Staging_Utility/1.0.0": {
+      "type": "project",
+      "path": "../Staging_Utility/Staging_Utility.csproj",
+      "msbuildProject": "../Staging_Utility/Staging_Utility.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Staging_Utility >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\longd\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Utility\\Staging_Utility.csproj": {
+              "projectPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Utility\\Staging_Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

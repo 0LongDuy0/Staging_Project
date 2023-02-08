@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Staging_Utility\Staging_Utility.csproj" />
+  </ItemGroup>
+
 </Project>

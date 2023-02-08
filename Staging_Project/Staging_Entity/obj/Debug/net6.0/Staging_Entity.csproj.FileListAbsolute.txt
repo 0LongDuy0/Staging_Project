@@ -34,3 +34,6 @@ D:\Linh_Tinh\Staging_Project\Staging_Project\Staging_Entity\obj\Debug\net6.0\Sta
 D:\Linh_Tinh\Staging_Project\Staging_Project\Staging_Entity\obj\Debug\net6.0\refint\Staging_Entity.dll
 D:\Linh_Tinh\Staging_Project\Staging_Project\Staging_Entity\obj\Debug\net6.0\Staging_Entity.pdb
 D:\Linh_Tinh\Staging_Project\Staging_Project\Staging_Entity\obj\Debug\net6.0\ref\Staging_Entity.dll
+D:\Linh_Tinh\Staging_Project\Staging_Project\Staging_Entity\bin\Debug\net6.0\Staging_Utility.dll
+D:\Linh_Tinh\Staging_Project\Staging_Project\Staging_Entity\bin\Debug\net6.0\Staging_Utility.pdb
+D:\Linh_Tinh\Staging_Project\Staging_Project\Staging_Entity\obj\Debug\net6.0\Staging_Entity.csproj.CopyComplete

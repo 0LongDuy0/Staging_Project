@@ -4,6 +4,267 @@
     "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Web\\Staging_Web.csproj": {}
   },
   "projects": {
+    "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Controller\\Staging_Controller.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Controller\\Staging_Controller.csproj",
+        "projectName": "Staging_Controller",
+        "projectPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Controller\\Staging_Controller.csproj",
+        "packagesPath": "C:\\Users\\longd\\.nuget\\packages\\",
+        "outputPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Controller\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\longd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Source\\Telerik UI for Blazor 3.3.0\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_DataLayer\\Staging_DataLayer.csproj": {
+                "projectPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_DataLayer\\Staging_DataLayer.csproj"
+              },
+              "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Entity\\Staging_Entity.csproj": {
+                "projectPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Entity\\Staging_Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_DataLayer\\Staging_DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_DataLayer\\Staging_DataLayer.csproj",
+        "projectName": "Staging_DataLayer",
+        "projectPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_DataLayer\\Staging_DataLayer.csproj",
+        "packagesPath": "C:\\Users\\longd\\.nuget\\packages\\",
+        "outputPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\longd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Source\\Telerik UI for Blazor 3.3.0\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Utility\\Staging_Utility.csproj": {
+                "projectPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Utility\\Staging_Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Entity\\Staging_Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Entity\\Staging_Entity.csproj",
+        "projectName": "Staging_Entity",
+        "projectPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Entity\\Staging_Entity.csproj",
+        "packagesPath": "C:\\Users\\longd\\.nuget\\packages\\",
+        "outputPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\longd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Source\\Telerik UI for Blazor 3.3.0\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Utility\\Staging_Utility.csproj": {
+                "projectPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Utility\\Staging_Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Utility\\Staging_Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Utility\\Staging_Utility.csproj",
+        "projectName": "Staging_Utility",
+        "projectPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Utility\\Staging_Utility.csproj",
+        "packagesPath": "C:\\Users\\longd\\.nuget\\packages\\",
+        "outputPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\longd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Source\\Telerik UI for Blazor 3.3.0\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Web\\Staging_Web.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -32,7 +293,17 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Controller\\Staging_Controller.csproj": {
+                "projectPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Controller\\Staging_Controller.csproj"
+              },
+              "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Entity\\Staging_Entity.csproj": {
+                "projectPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Entity\\Staging_Entity.csproj"
+              },
+              "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Utility\\Staging_Utility.csproj": {
+                "projectPath": "D:\\Linh_Tinh\\Staging_Project\\Staging_Project\\Staging_Utility\\Staging_Utility.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

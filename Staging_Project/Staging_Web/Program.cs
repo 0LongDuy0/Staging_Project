@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using Staging_Utility;
 using Staging_Web.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +19,9 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+// Connection
+U_Config.Project_Staging_Conn_String = builder.Configuration.GetConnectionString("Project_Staging_Conn_String");
 
 app.UseHttpsRedirection();
 

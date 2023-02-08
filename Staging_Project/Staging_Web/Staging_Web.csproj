@@ -6,4 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\Common\Basic\" />
+    <Folder Include="Pages\Sys\Basic\Components\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Staging_Controller\Staging_Controller.csproj" />
+    <ProjectReference Include="..\Staging_Entity\Staging_Entity.csproj" />
+    <ProjectReference Include="..\Staging_Utility\Staging_Utility.csproj" />
+  </ItemGroup>
+
 </Project>

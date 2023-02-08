@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Globalization;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -79,6 +81,39 @@ namespace Staging_Utility
         public static string Convert_To_String(object p_objData)
         {
             return Convert.ToString(p_objData);
+        }
+
+        public static T Map_Row_To_Entity<T>(DataRow p_Row) where T : new()
+        {
+            // create a new object
+            T v_objItem = new T();
+
+            foreach (DataColumn v_colValue in p_Row.Table.Columns)
+            {
+                // find the property for the column
+                PropertyInfo v_objItem_Info = v_objItem.GetType().GetProperty(v_colValue.ColumnName);
+
+                // if exists, set the value
+                if (v_objItem_Info != null && p_Row[v_colValue] != DBNull.Value)
+                {
+                    string v_strTypedata = v_colValue.DataType.Name;
+                    switch (v_strTypedata)
+                    {
+                        case "String": v_objItem_Info.SetValue(v_objItem, U_Utility.Convert_To_String(p_Row[v_colValue])); break;
+                        case "Int16": v_objItem_Info.SetValue(v_objItem, U_Utility.Convert_To_Int32(p_Row[v_colValue])); break;
+                        case "Int32": v_objItem_Info.SetValue(v_objItem, U_Utility.Convert_To_Int32(p_Row[v_colValue])); break;
+                        case "Int64": v_objItem_Info.SetValue(v_objItem, U_Utility.Convert_To_Int64(p_Row[v_colValue])); break;
+                        case "DateTime": v_objItem_Info.SetValue(v_objItem, U_Utility.Convert_To_DateTime(p_Row[v_colValue])); break;
+                        case "DateTime?": v_objItem_Info.SetValue(v_objItem, U_Utility.Convert_To_DateTime(p_Row[v_colValue])); break;
+                        case "Double": v_objItem_Info.SetValue(v_objItem, U_Utility.Convert_To_Double(p_Row[v_colValue]), null); break;
+                        case "Decimal": v_objItem_Info.SetValue(v_objItem, U_Utility.Convert_To_Double(p_Row[v_colValue]), null); break;
+                        case "Boolean": v_objItem_Info.SetValue(v_objItem, U_Utility.Convert_To_Bool(p_Row[v_colValue]), null); break;
+                    }
+                }
+            }
+
+            // return 
+            return v_objItem;
         }
         #endregion
     }

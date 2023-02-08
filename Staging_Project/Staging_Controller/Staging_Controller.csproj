@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Staging_DataLayer\Staging_DataLayer.csproj" />
+    <ProjectReference Include="..\Staging_Entity\Staging_Entity.csproj" />
+  </ItemGroup>
+
 </Project>

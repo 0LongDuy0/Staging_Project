@@ -1,0 +1,35 @@
+﻿<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">ID</th>
+            <th scope="col">Tên Người Dùng</th>
+            <th scope="col">Mật Khẩu</th>
+            <th scope="col">Email</th>
+            <th scope="col">CCCD</th>
+            <th scope="col">SĐT</th>
+            <th scope="col">Địa Chỉ</th>
+            <th scope="col">Ghi Chú</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (E_Sys_Tai_Khoan v_objItem in v_arrData)
+        {
+            <tr>
+                <th scope="row">1</th>
+                <td>@v_objItem.Auto_ID</td>
+                <td>@v_objItem.Ten_Nguoi_Dung</td>
+                <td>@v_objItem.Mat_Khau</td>
+                <td>@v_objItem.Email</td>
+                <td>@v_objItem.CCCD</td>
+                <td>@v_objItem.SĐT</td>
+                <td>@v_objItem.Dia_Chi</td>
+                <td>@v_objItem.Ghi_Chu</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+
+}

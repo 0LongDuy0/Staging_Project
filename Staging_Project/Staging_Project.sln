@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staging_Web", "Staging_Web\Staging_Web.csproj", "{6A83057E-B5F4-4350-AF0D-2078FB48A354}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Staging_Web", "Staging_Web\Staging_Web.csproj", "{6A83057E-B5F4-4350-AF0D-2078FB48A354}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staging_App", "Staging_App\Staging_App.csproj", "{BD379572-D5B5-4572-A842-CF0BA70C013D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Staging_App", "Staging_App\Staging_App.csproj", "{BD379572-D5B5-4572-A842-CF0BA70C013D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staging_Controller", "Staging_Controller\Staging_Controller.csproj", "{E225E958-C5FF-4596-9527-D46FC4823282}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Staging_Controller", "Staging_Controller\Staging_Controller.csproj", "{E225E958-C5FF-4596-9527-D46FC4823282}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staging_DataLayer", "Staging_DataLayer\Staging_DataLayer.csproj", "{FAABF778-50A8-4F88-AE91-19628C322D1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Staging_DataLayer", "Staging_DataLayer\Staging_DataLayer.csproj", "{FAABF778-50A8-4F88-AE91-19628C322D1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staging_Entity", "Staging_Entity\Staging_Entity.csproj", "{63ACD146-83B5-4686-AC7E-62C870E41C06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Staging_Entity", "Staging_Entity\Staging_Entity.csproj", "{63ACD146-83B5-4686-AC7E-62C870E41C06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staging_Utility", "Staging_Utility\Staging_Utility.csproj", "{17667CE1-404A-4675-9140-6025C615A486}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Staging_Utility", "Staging_Utility\Staging_Utility.csproj", "{17667CE1-404A-4675-9140-6025C615A486}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Staging_Entity/1.0.0": {
+        "dependencies": {
+          "Staging_Utility": "1.0.0"
+        },
         "runtime": {
           "Staging_Entity.dll": {}
+        }
+      },
+      "Staging_Utility/1.0.0": {
+        "runtime": {
+          "Staging_Utility.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Staging_Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Staging_Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
