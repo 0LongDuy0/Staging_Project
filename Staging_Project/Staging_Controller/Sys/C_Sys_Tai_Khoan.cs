@@ -70,13 +70,13 @@ namespace Staging_Controller.Sys
             return v_objRes;
         }
 
-        public long Insert_Sys_Tai_Khoan(E_Sys_Tai_Khoan p_objData)
+        public int Insert_Sys_Tai_Khoan(E_Sys_Tai_Khoan p_objData)
         {
-            long v_iRes = U_Const.INT_VALUE_NULL;
+            int v_iRes = U_Const.INT_VALUE_NULL;
 
             try
             {
-                v_iRes = Convert.ToInt64(D_SqlHelper.ExecuteScalar(U_Config.Project_Staging_Conn_String, "sp_ins_Sys_Tai_Khoan",
+                v_iRes = Convert.ToInt32(D_SqlHelper.ExecuteScalar(U_Config.Project_Staging_Conn_String, "sp_ins_Sys_Tai_Khoan",
                     p_objData.Ten_Nguoi_Dung, p_objData.Mat_Khau, p_objData.Email, p_objData.Dia_Chi, p_objData.SĐT, p_objData.CCCD, p_objData.Ghi_Chu, p_objData.Last_Updated_By, p_objData.Last_Updated_By_Function));
             }
 
@@ -107,6 +107,53 @@ namespace Staging_Controller.Sys
             try
             {
                 D_SqlHelper.ExecuteNonquery(U_Config.Project_Staging_Conn_String, "sp_del_Sys_Tai_Khoan", p_iAuto_ID, p_strLast_Updated_By, p_strLast_Updated_By_Function);
+            }
+
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+        #endregion
+
+        #region FSys00101_Tai_Khoan_Staging_Grid, FSys00102_Tai_Khoan_Staging_Edit
+        public void FSys00101_Delete_Sys_Tai_Khoan(long p_iAuto_ID, string p_strLast_Updated_By, string p_strLast_Updated_By_Function)
+        {
+            try
+            {
+                D_SqlHelper.ExecuteNonquery(U_Config.Project_Staging_Conn_String, "FSys00101_sp_del_Sys_Tai_Khoan", p_iAuto_ID, p_strLast_Updated_By, p_strLast_Updated_By_Function);
+            }
+
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public int FSys00102_Insert_Sys_Tai_Khoan(E_Sys_Tai_Khoan p_objData)
+        {
+            int v_iRes = U_Const.INT_VALUE_NULL;
+
+            try
+            {
+                v_iRes = Convert.ToInt32(D_SqlHelper.ExecuteScalar(U_Config.Project_Staging_Conn_String, "FSys00102_sp_ins_Sys_Tai_Khoan",
+                    p_objData.Ten_Nguoi_Dung, p_objData.Mat_Khau, p_objData.Email, p_objData.Dia_Chi, p_objData.SĐT, p_objData.CCCD, p_objData.Ghi_Chu, p_objData.Last_Updated_By, p_objData.Last_Updated_By_Function));
+            }
+
+            catch (Exception)
+            {
+                throw;
+            }
+
+            return v_iRes;
+        }
+
+        public void FSys00102_Update_Sys_Tai_Khoan(E_Sys_Tai_Khoan p_objData)
+        {
+            try
+            {
+                D_SqlHelper.ExecuteNonquery(U_Config.Project_Staging_Conn_String, "FSys00102_sp_upd_Sys_Tai_Khoan", p_objData.Auto_ID,
+                    p_objData.Ten_Nguoi_Dung, p_objData.Mat_Khau, p_objData.Email, p_objData.Dia_Chi, p_objData.SĐT, p_objData.CCCD, p_objData.Ghi_Chu, p_objData.Last_Updated_By, p_objData.Last_Updated_By_Function);
             }
 
             catch (Exception)

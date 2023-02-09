@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Staging_Utility
 {
-    public class U_Enum
+    public enum U_EModal_Result
     {
+        Close_Cancel = 1,
+		Close_And_Reload_Data = 200,
+		Exception = 1067
     }
 }

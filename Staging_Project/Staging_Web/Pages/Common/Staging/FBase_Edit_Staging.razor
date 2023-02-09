@@ -1,5 +1,19 @@
-﻿<h3>FBase_Edit_Staging</h3>
+﻿@code {
+    [Parameter]
+    public EventCallback<E_Event_Call_Back> OnClose{ get; set; }
+    [Parameter]
+    public int r_iFBase_Edit_Auto_ID { get; set; } = 0;
 
-@code {
+    protected bool r_bFBase_Edit_Update = false;
 
+    public E_Event_Call_Back r_objFBase_Edit_Call_Back_Event = new();
+
+    public string r_strError = "";
+
+    public Task Close_Edit()
+    {
+        r_objFBase_Edit_Call_Back_Event.Message_ID = (int)U_EModal_Result.Close_Cancel;
+
+        return OnClose.InvokeAsync(r_objFBase_Edit_Call_Back_Event);
+    }
 }

@@ -1,5 +1,32 @@
-﻿<h3>FBase_Staging</h3>
+﻿@code {
+    public int r_iFBase_Auto_ID { get; set; } = 0;
 
-@code {
+    public E_Event_Call_Back r_objFBase_Call_Back_Event = new();
 
+    public bool r_bIs_Show_Edit = false;
+
+    #region Hàm inherit
+    protected virtual void Reload_Data()
+    {
+
+    }
+    #endregion
+
+    protected void FBase_Show_Edit(int p_iAuto_ID)
+    {
+        r_iFBase_Auto_ID = p_iAuto_ID;
+        r_bIs_Show_Edit = true;
+        StateHasChanged();
+    }
+
+    protected void FBase_Close_Edit(E_Event_Call_Back p_objEvent)
+    {
+        if (p_objEvent.Message_ID == (int)U_EModal_Result.Close_Cancel || p_objEvent.Message_ID == (int)U_EModal_Result.Close_And_Reload_Data)
+            r_bIs_Show_Edit = false;
+
+        if (p_objEvent.Message_ID == (int)U_EModal_Result.Close_And_Reload_Data)
+            Reload_Data();
+
+        StateHasChanged();
+    }
 }
